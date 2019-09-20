@@ -22,6 +22,13 @@ export default new Router({
       component: function () { 
         return import(/* webpackChunkName: "about" */ './views/About.vue')
       }
+    },
+    {
+      path: '/form1',
+      name: 'form1',
+      component: function () { 
+        return import('./views/Form1.vue')
+      }
     }
   ]
 })

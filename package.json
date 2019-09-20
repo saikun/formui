@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "vue": "^2.6.10",
-    "vue-router": "^3.0.3"
+    "vue-router": "^3.0.3",
+    "vue-form-generator":"^2.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^3.11.0",
